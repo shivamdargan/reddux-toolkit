@@ -1,6 +1,7 @@
-import ChangeColor from "./components/chaneColor";
+import ChangeColor from "./components/changeColor";
 import Login from "./components/login";
 import Profile from "./components/profile";
+import UserStatus from "./components/userStatus";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Profile/>
       <Login/>
       <ChangeColor/>
+      <UserStatus/>
     </div>
   );
 }
